@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  font-family: 'Times New Roman', Times, serif, sans-serif;
+  background: #20243a;
+  color: white;
+}
+
+main {
+  width: 320px;
+  margin: 100px auto;
+  padding: 25px;
+  text-align: center;
+  background: #303650;
+  border-radius: 15px;
+}
+
+button {
+  padding: 10px 20px;
+  margin: 15px;
+  border: none;
+  border-radius: 8px;
+  background: #66e3ff;
+  cursor: pointer;
+}
+
+input {
+  width: 100%;
+}
