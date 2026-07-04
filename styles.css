@@ -6,23 +6,64 @@ body {
 }
 
 main {
-  width: 320px;
-  margin: 100px auto;
+  width: 360px;
+  margin: 60px auto;
   padding: 25px;
   text-align: center;
   background: #303650;
   border-radius: 15px;
 }
 
+.button-row {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+}
+
 button {
   padding: 10px 20px;
-  margin: 15px;
+  margin: 15px 0;
   border: none;
   border-radius: 8px;
   background: #66e3ff;
   cursor: pointer;
 }
 
-input {
+button:disabled {
+  background: #7d8299;
+  cursor: not-allowed;
+}
+
+.control {
+  margin-top: 18px;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+input,
+select {
   width: 100%;
+  box-sizing: border-box;
+}
+
+select {
+  padding: 8px;
+  border: none;
+  border-radius: 8px;
+}
+
+p {
+  margin-bottom: 0;
+}
+
+canvas {
+  width: 100%;
+  margin-top: 8px;
+  background: #15192b;
+  border: 2px solid #66e3ff;
+  border-radius: 10px;
 }
